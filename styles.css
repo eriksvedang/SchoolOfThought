@@ -13,9 +13,16 @@ code {
     font-family: Hasklig;
 }
 
+pre {
+    /* background: #00F; */
+    margin: 0px;
+    padding: 0px;
+}
+
 .content {
     max-width: 800px;
     margin: auto;
+    line-height: 1.3em;
 }
 
 h1 {
@@ -26,17 +33,30 @@ h1 {
     font-size: 1.8em;
 }
 
-ul {
-    list-style-type: none;
+h2 {
+    font-size: 1.1em;
+}
+
+.jargon {
+    font-weight: bold;
 }
 
 a {
-    background: #FF3F60;
-    color: #FFF;
-    padding: 5px;
-    text-decoration: none;
+    color: #FF3F60;
 }
 
-a:hover {
-    background: #6F6F90;
+.lessonlink {
+    background: #FF3F60;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.lessonlink:hover {
+    text-decoration: italic;
+}
+
+.lessonlink:visited {
+    background: #9A0060;
+    color: #DDD;
 }
