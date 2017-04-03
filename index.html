@@ -1,7 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en"> 
   <head>
+    <meta charset="utf-8">
+    
+    <!-- Syntax highlighting -->
+    <link rel="stylesheet" type="text/css" href="syntax.css">
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- My styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Hasklig font -->
+    
   </head>
+  
   <body>
-    <h1>Tempest</h1>
+    <div class="content">
+      <h1>Tempest (a temporary title of this project)</h1>
+      <p>
+        Tempest is a blah blah blah. With the goal of bleh. Meh mi huu.
+      </p>
+      <pre>
+        <code class="haskell">
+          main :: IO ()
+          main = do
+            putStrLn "hello"
+
+          f :: Functor a => a -> Int
+          f = fmap (+1) a
+        </code>
+      </pre>
+      
+      <p><a href="lesson1.html">Lesson 1 &ndash; A tale of fishes</a></p>
+      <p><a href="lesson2.html">Lesson 2 &ndash; What to do about the tree?</a></p>
+      <p><a href="lesson3.html">Lesson 3 &ndash; Revisiting Mount Doom</a></p>
+      <p><a href="lesson4.html">Lesson 4 &ndash; Shot by Shot</a></p>
+      <p><a href="lesson5.html">Lesson 5 &ndash; Curry and Howard, a love story</a></p>
+      
+    </div>
   </body>
 </html>
